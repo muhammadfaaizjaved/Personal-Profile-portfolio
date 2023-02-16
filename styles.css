@@ -1,0 +1,90 @@
+
+body {
+    font-family: 'Exo', sans-serif;
+    background-color: rgb(167, 166, 166);
+    position: relative;
+    
+  }
+
+table {
+    border: 1px solid #22646d;
+    background-color: #5cb3fa;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-left: 300px;
+}
+
+
+#p1 {
+  border-bottom: solid 3px gray;
+}
+  
+  header h1 {
+    background-color: bisque;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(146, 11, 94);
+    text-align: center;
+    border: solid 5px black;
+    padding: 20px;
+  }
+  input[type="submit"]:hover {
+    border: 1px solid #10502b;
+    background-color: #09ff67;
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+
+  a:hover {
+    border: 1px solid #22646d;
+    background-color: #5cb3fa;
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+
+  input {
+    box-shadow: 3px 3px 3px #777777
+  }
+  fieldset {
+    width: 350px;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: right;}
+  legend {
+    background-color: #efefef;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: left;
+    text-transform: uppercase;}
+  
+  nav {
+    display: flex;
+    justify-content: none;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav a {
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 1em;
+  }
+  textarea:focus {
+    border: 1px solid #10502b;
+    background-color: #09ff67;
+  }
+  
+  section {
+    margin-bottom: 2em;
+  }
+
+  
